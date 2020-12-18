@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+  
+  <title>W3.CSS</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <body>
+  
+  <style>
+  .active{
+  color:white;
+  background-color:gray;
+  }
+  </style>
+  
+  <div class="w3-sidebar w3-light-blue w3-bar-block w3-border-right" style="display:none" id="mySidebar">
+  <button onclick="w3_close()" class="w3-bar-item w3-large">Close &times;</button>
+  <a href="Website.html" class="w3-bar-item w3-button">Home</a>
+  <a href="Product history.html" class="w3-bar-item w3-button">Product History</a>
+  <a href="Product information.html" class="w3-bar-item w3-button">Product Information</a>
+  <a href="About us.html" class="w3-bar-item w3-button">About us</a>
+  <a class="active" href="Reviews.html" class="w3-bar-item w3-button"> Ratings and Reviews</a>
+  </div>
+  
+  <div class="w3-teal">
+  <button class="w3-button w3-teal w3-xlarge" onclick="w3_open()">☰</button>
+ <img src="Logo_1.png" alt="Logo" width="50" heighheight="60" style="float:right">
+  
+  <div style="background-color:black;color:#FEFE33;padding:0px;"> 
+  <h1 style="font-family:courier"> <b> <h1 style="text-align:center;">  Ratings and Reviews </h1> </h1> </b> </div>
+  
+  </div>
+  
+  
+  <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+  img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  }
+  </style>
+  </head>
+  
+  <script>
+  function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+  }
+  
+  function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+  }
+  </script>
+  
+    <meta charset="utf-8">
+   
+    <title>Star Rating Form | CodingNepal</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="post">
+        <div class="text">
+Thanks for rating us!</div>
+</div>
+<div class="star-widget">
+        <input type="radio" name="rate" id="rate-5">
+        <label for="rate-5" class="fas fa-star"></label>
+        <input type="radio" name="rate" id="rate-4">
+        <label for="rate-4" class="fas fa-star"></label>
+        <input type="radio" name="rate" id="rate-3">
+        <label for="rate-3" class="fas fa-star"></label>
+        <input type="radio" name="rate" id="rate-2">
+        <label for="rate-2" class="fas fa-star"></label>
+        <input type="radio" name="rate" id="rate-1">
+        <label for="rate-1" class="fas fa-star"></label>
+        <form action="#">
+          <header></header>
+          <div class="textarea">
+            <textarea cols="30" placeholder="Describe your experience on our website.."></textarea> 
+          
+          <br />
+          
+<script>
+      const btn = document.querySelector("button");
+      const post = document.querySelector(".post");
+      const widget = document.querySelector(".star-widget");
+      const editBtn = document.querySelector(".edit");
+      btn.onclick = ()=>{
+        widget.style.display = "none";
+        post.style.display = "block";
+        editBtn.onclick = ()=>{
+          widget.style.display = "block";
+          post.style.display = "none";
+        
+    </script>
+  </body>
+  
+  
+  <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+  * {
+  box-sizing: border-box;
+  }
+  
+  input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+  }
+  
+  label {
+  padding: 12px 12px 12px 0;
+   display: inline-block;
+  }
+  
+  input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+  }
+  
+  input[type=submit]:hover {
+  background-color: #45a049;
+  }
+  
+  .container {
+  border-radius: 5px;
+  background-color: #ADD8E6;
+  padding: 20px;
+  }
+  
+  .col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+  }
+  
+  .col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+  }
+  
+  
+  .row:after {
+  content: "";
+  display: table;
+  clear: both;
+  }
+  
+  @media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+  width: 100%;
+  margin-top: 0;
+  }
+  }
+  </style>
+  </head>
+  <body>
+  
+  <h2>Responsive Form</h2>
+  <p>Kindly give us some suggestions and feedbacks about our product Muucav. Thank you!  </p>
+  
+  <div class="container">
+  <form action="/action_page.php">
+  <div class="row">
+  <div class="col-25">
+  <label for="fname">First Name (optional)</label>
+  </div>
+  <div class="col-75">
+  <input type="text" id="fname" name="firstname" placeholder="Your name..">
+  </div>
+  </div>
+  <div class="row">
+  <div class="col-25">
+  <label for="lname">Last Name (optional)</label>
+  </div>
+  <div class="col-75">
+  <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+  </div>
+  </div>
+  <div class="row">
+  <div class="col-25">
+  <label for="country">Country</label>
+  </div>
+  <div class="col-75">
+  <select id="country" name="country">
+  <option value="choose">Choose </option>
+  <option value="afghanistan">Afghanistan</option>
+  <option value="armenia">Armenia</option>
+  <option value="azerbaijan">Azerbaijan</option>
+  <option value="bahrain">Bahrain </option>
+  <option value="bangladesh">Bangladesh</option>
+  <option value="bhutan">Bhutan</option>
+  <option value="brunei">Brunei</option>
+  <option value="burma">Burma</option>
+  <option value="cambodia">Cambodia</option>
+  <option value="china">China</option>
+  <option value="east timor">East Timor</option>
+  <option value="georgia">Georgia</option>
+  <option value="hongkong">Hongkong</option>
+  <option value="india">India</option>
+  <option value="indonesia">Indonesia</option>
+  <option value="iran">Iran</option>
+  <option value="iraq">Iraq</option>
+  <option value="israel">Israel</option>
+  <option value="japan">Japan</option>
+  <option value="jordan">Jordan</option>
+  <option value="kazakhstan">Kazakhstan</option>
+  <option value="kuwait">Kuwait</option>
+  <option value="kyrgyzstan">Kyrgyzstan</option>
+  <option value="laos">Laos</option>
+  <option value="lebanon">Lebanon</option>
+  <option value="malaysia">Malaysia</option>
+  <option value="mongolia">Mongolia</option>
+  <option value="nepal">Nepal</option>
+  <option value="north korea">North Korea</option>
+  <option value="oman">Oman</option>
+  <option value="pakistan">Pakistan</option>
+  <option value="papau new guinea">Papua New Guinea</option>
+  <option value="philippines">Philippines</option>
+  <option value="qatar">Qatar</option>
+  <option value="russia">Russia</option>
+  <option value="saudi arabia">Saudi Arabia</option>
+  <option value="singapore">Singapore</option>
+  <option value="south korea">South Korea</option>
+  <option value="sri lanka">Sri Lanka</option>
+  <option value="syria">Syria</option>
+  <option value="taiwan">Taiwan</option>
+  <option value="tajikistan">Tajikistan</option>
+  <option value="thailand">Thailand</option>
+  <option value="turkey">Turkey</option>
+  <option value="tukmenistan">Tukmenistan</option>
+  <option value="UAE">United Arab Emirates</option>
+  <option value="uzbekistan">Uzbekistan</option>
+  <option value="vietnam">Vietnam</option>
+  <option value="yemen">Yemen</option>
+  <option value="other">Other</option>
+  </select>
+  </div>
+  </div>
+  <div class="row">
+  <div class="col-25">
+  <label for="suggestion/s">Suggestion/s</label>
+  </div>
+  <div class="col-75">
+  <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+  </div>
+  </div>
+  <div class="row">
+  <input type="submit" value="Submit">
+  </div>
+  </form>
+  </div>
+  
+  </body>
+</script>
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin: 1500} 
+.mySlides {display: block}
+img {vertical-align: middle;}
+
+footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #3EA99F;
+   color: white;
+   text-align: center;
+}
+
+body {
+  background-image: url('images.jpeg.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}
+</style>
+</head>
+<body>
+
+</div>
+
+<div>
+<footer>
+  <p style="color:silver";"> ©Muucav 2020</p>
+</footer>
+</div>
+  
+</html>
+  

@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title>Product Information</title>
+	<style type="text/css">
+
+		
+		body {
+			min-width: 630px;
+		}
+
+		#container {
+			padding-left: 240px;
+			padding-right: 30px;
+		}
+		
+		#container .column {
+			position: relative;
+			float: left;
+		}
+		
+		#center {
+			padding: 10px 20px;
+			width: 100%;
+		}
+		
+		#left {
+			width: 300px;
+			padding: 0 10px;
+			right: 240px;
+			margin-left: -100%;
+		}
+		
+		#footer {
+			clear: both;
+		}
+		
+		
+		* html #left {
+			left: 50px;
+		}
+
+	
+		#container {
+			overflow: hidden;
+		}
+
+		#container .column {
+			padding-bottom: 1001em;
+			margin-bottom: -1000em;
+		}
+
+		
+		* html body {
+			overflow: hidden;
+		}
+		
+		* html #footer-wrapper {
+			float: left;
+			position: relative;
+			width: 100%;
+			padding-bottom: 10010px;
+			margin-bottom: -10000px;
+			background: #fff;
+		}
+
+		
+		body {
+			margin: 0;
+			padding: 0;
+			font-family:Sans-serif;
+			line-height: 2.5em;
+		}
+		
+		p {
+			color: #555;
+		}
+
+		nav ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+		}
+		
+		nav ul a {
+			color: darkgreen;
+			text-decoration: none;
+		}
+
+		#header, #footer {
+			font-size: large;
+			padding: 0.3em;
+			background: #3EA99F;
+                        text-align: center;
+		}
+
+		#left {
+			background: #ADD8E6;
+		}
+
+		#center {
+			background-image: url('images.jpeg.jpg');
+			background-attachment: fixed;  
+ 		        background-size: cover;
+		}
+
+		#container .column {
+			padding-top: 1em;
+		}
+		article {
+                       float: right;
+                       padding: 20px;
+                       width: 80%;
+                      height: 780px; 
+                    
+            }
+	</style>
+</head>
+
+<body>
+
+	<header><title>W3.CSS</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<body>
+	
+	<style>
+	.active{
+	color:white;
+	background-color: gray;
+	}
+	</style>
+	
+	<div class="w3-sidebar w3-light-blue w3-bar-block w3-border-right" style="display:none" id="mySidebar">
+	<button onclick="w3_close()" class="w3-bar-item w3-large">Close &times;</button>
+	<a href="Website.html" class="w3-bar-item w3-button">Home</a>
+	<a href="Product history.html" class="w3-bar-item w3-button">Product History</a>
+	<a class="active" href="Product information.html" class="w3-bar-item w3-button">Product Information</a>
+	<a href="About us.html" class="w3-bar-item w3-button">About us</a>
+	<a href="Reviews.html" class="w3-bar-item w3-button"> Ratings and Reviews</a>
+	</div>
+	
+	<div class="w3-teal">
+	<button class="w3-button w3-teal w3-xlarge" onclick="w3_open()">☰</button>
+	<input type="text" placeholder="Search.."> <img src="Logo_1.png" alt="Logo" width="50" heighheight="60" style="float:right">
+	
+	<div style="background-color:black;color:#FEFE33;padding:0px;"> 
+	<h1 style="font-family:courier"> <b> <h1 style="text-align:center;"> Product Information </h1> </h1> </b> </div>
+	
+	</div>
+	
+	
+	<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style>
+	img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	}
+	</style>
+	</head>
+
+	<script>
+	function w3_open() {
+	document.getElementById("mySidebar").style.display = "block";
+	}
+	
+	function w3_close() {
+	document.getElementById("mySidebar").style.display = "none";
+	}
+	</script></header>
+
+	<div id="container">
+
+		<main id="center" class="column">
+			<article>
+<p><b>
+                            <h1 style="text-align:center;color:#ADD99F;padding:0px;">Why you will choose Muucav? </h1>
+    	                    <ul style="font-size:30px";">
+	                   <li style="text-align:center;color:white;padding:0px;">Muucav is so easy to use, it's a device uses electricity and with just one tap on the button then it's ready to use. </li>
+	                   <li style="text-align:center;color:white;padding:0px;">It's affordable because it only cost 49.99$ and you can have it.  </li>
+	                   <li style="text-align:center;color:white;padding:0px;">It's applicable in any kind of cement and types of construction you will constructs like buildings, houses, roads, bridges and more</li>
+                           <li style="text-align:center;color:white;padding:0px;">You can use electricity with it or use a battery for you to be able to move freely. The battery cost 12.99$.</li>
+	                   <li style="text-align:center;color:white;padding:0px;">It provides and assure that it can dry cement fast. </li>
+	                   <li style="text-align:center;color:white;padding:0px;">It doesn't only provide a quick drying of cement but also it maintains the durable of the cement. </li>
+                          </ul></b></p>
+                           
+                      <br>
+                      
+                      <h1 style="color:#ADD99F;">Muucav for quick drying of cement</h1>
+                      <p style="color:blue;"><b>Price: 49:99$ </b></p>
+                      
+                      <video width="400" controls>
+                      <source src="muucav.mp4" type="video/mp4"> 
+                      </video>
+                      </br>
+			</article>						
+		</main>
+
+		<nav id="left" class="column">
+			<h2 style="text-align:center"> What are the use of Muucav? </h2>
+			<p>The Muucav is a machine that dries surfaces quicker than natural processes. It emits air in high-temperatures from the
+			mouth of the device. It is very effective in drying cement, concrete, and paint. It's movable "mouth" makes it
+			easy to control and aim it to the target. The temperature of the heat can also be adjusted to satisfy different uses
+			depending on the desire of the user. This can be used in construction of buildings, highways, and other structures that
+			makes use of cement and paint. It will be very beneficial for engineers as it helps them lessen the efforts in construction
+			while also speeding up its process. Muucav can help a lot of engineers not only engineers but also the people who want 
+			to finish their houses or buildings, this can also help the economy because if we can finish roads, buildings and bridges
+			quickly the flow of the economy will become smoother. Muucav is a device can help you if you're tired of waiting for the
+			cement to dry. Muucav will not lessen the work of the individual or the construction worker because if you will use Muucav
+			you'll be needing to dry up every layer of the cement and also while drying the cement sprinkle some water also every layer 
+			for the cement to have more durability.  </p>
+		</nav>
+
+	</div>
+
+	<div id="footer-wrapper">
+
+		<footer id="footer"><p> ©Muucav 2020</p>
+        </footer>
+	</div>
+</body>
+
+</html>
